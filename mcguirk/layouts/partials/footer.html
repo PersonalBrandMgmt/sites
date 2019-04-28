@@ -1,0 +1,63 @@
+<footer>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-pb-sm">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h2>Contact Me</h2>
+                            <p>Please feel free to reach out.</p>
+                            <p><a href="#">{{ .Site.Params.Email }}</a></p>
+                            <p class="colorlib-social-icons">
+                                <a href="{{ .Site.Params.facebook }}" target="_blank"><i class="icon-facebook4"></i></a>
+                                <a href="{{ .Site.Params.linkedin }}" target="_blank"><i class="icon-linkedin4"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-pb-sm">
+                    <h2>Favorite Articles</h2>
+                    <div class="f-entry">
+                        <a href="{{ .Site.Params.article_1_link }}" target="_blank" class="featured-img" style="background-image: url(images/img-1.jpg);"></a>
+                        <div class="desc">
+                            <span>{{ .Site.Params.article_1_caption }}</span>
+                            <h3><a href="{{ .Site.Params.article_1_link }}" target="_blank">{{ .Site.Params.article_1 }}</a></h3>
+                        </div>
+                    </div>
+                    <div class="f-entry">
+                        <a href="{{ .Site.Params.article_2_link }}" target="_blank" class="featured-img" style="background-image: url(images/img-2.jpg);"></a>
+                        <div class="desc">
+                            <span>{{ .Site.Params.article_2_caption }}</span>
+                            <h3><a href="{{ .Site.Params.article_2_link }}" target="_blank">{{ .Site.Params.article_2 }}</a></h3>
+                        </div>
+                    </div>
+                    <div class="f-entry">
+                        <a href="{{ .Site.Params.article_3_link }}" target="_blank" class="featured-img" style="background-image: url(images/img-3.jpg);"></a>
+                        <div class="desc">
+                            <span>{{ .Site.Params.article_3_caption }}</span>
+                            <h3><a href="{{ .Site.Params.article_3_link }}" target="_blank">{{ .Site.Params.article_3 }}</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-pb-sm">
+                    <h2>Thought Leadership</h2>
+                    <p>Read a few of the articles I've contributed on Medium.</p>
+                    <div class="subscribe text-center">
+                        <div class="form-group">
+                            <a href="https://medium.com" target="_blank"><input type="submit" value="Subscribe" class="btn btn-primary btn-custom"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        &copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Content Advisory by <a href="https://personalbrandmgmt.com" target="_blank">Personal Brand Mgmt., LLC</a> | Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
